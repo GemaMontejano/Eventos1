@@ -9,4 +9,10 @@ document.getElementById('button3').addEventListener('click', function () {
 })
 document.getElementById('button4').addEventListener('click', function () {
     document.getElementById('content').style.backgroundColor = 'green'
-}
+})
+document.getElementById('ocultar').addEventListener('click', function () {
+    document.getElementById('content').style.display = 'none'
+})
+document.getElementById('mostrar').addEventListener('click', function () {
+    document.getElementById('content').style.display = 'block'
+})
